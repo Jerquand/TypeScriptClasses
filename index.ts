@@ -16,6 +16,6 @@ function identity<T extends Person>(argument: T): T {
 function birthday() {
     console.log("Date: evaluated");
     return function (target, propertyKey: string, descriptor: PropertyDescriptor) {
-        console.log("July 6,1993");
+        console.log("July 12,1993");
     }
 }    
